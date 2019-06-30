@@ -228,6 +228,18 @@ nav {
         font-size: 36px;
       }
     }
+    .number {
+      margin-top: 40px;
+      color: $color-green;
+      font-size: 40px;
+      @media (min-width: 768px) {
+        font-size: 52px;
+      }
+
+      @media (min-width: 1024px) {
+        font-size: 60px;
+      }
+    }
 
     .arrow {
       position: fixed;
@@ -397,8 +409,8 @@ nav {
 
       .photo {
         padding: 10px 0;
-        width: 300px;    
-        height: 225px; 
+        width: 300px;
+        height: 225px;
 
         @media (min-width: 650px) {
           padding: 10px 0;
@@ -516,7 +528,7 @@ nav {
     }
   }
 
-  .content {
+  .offer-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -528,27 +540,16 @@ nav {
       font-size: 16px;
     }
 
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      width: 100%;
+    @media (min-width: 1080) {
+      justify-content: space-between;
+    }
 
-      @media (min-width: 768px) {
-        justify-content: space-around;
-      }
+    .option {
+      margin: 25px 0;
+      text-align: center;
 
-      @media (min-width: 1024px) {
-        justify-content: space-between;
-      }
-
-      .option {
-        margin: 25px 0;
-        text-align: center;
-
-        img {
-          margin: 0 10px;
-        }
+      img {
+        margin: 0 10px;
       }
     }
   }
