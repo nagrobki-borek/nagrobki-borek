@@ -225,67 +225,82 @@ nav .nav-container .menu.active {
   text-align: center;
 }
 
-.welcome .welcome-container .headline {
-  margin: 20px 0;
-  font-size: 24px;
+.welcome .welcome-container .text .main-text {
+  font-size: 20px;
 }
 
-@media (min-width: 768px) {
-  .welcome .welcome-container .headline {
+@media (min-width: 520px) {
+  .welcome .welcome-container .text .main-text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .welcome .welcome-container .text .main-text {
+    font-size: 26px;
+  }
+}
+
+.welcome .welcome-container .text .headline {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+@media (min-width: 360px) {
+  .welcome .welcome-container .text .headline {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 434px) {
+  .welcome .welcome-container .text .headline {
     font-size: 28px;
   }
 }
 
-@media (min-width: 1024px) {
-  .welcome .welcome-container .headline {
-    font-size: 32px;
-  }
-}
-
-.welcome .welcome-container .logo {
-  font-family: 'Thasadith', sans-serif;
-  margin: 0;
-  color: #e6e6e6;
-}
-
-@media (min-width: 1024px) {
-  .welcome .welcome-container .logo {
-    font-size: 28px;
-  }
-}
-
-.welcome .welcome-container :nth-child(3) {
-  margin: 20px 0;
-  text-transform: uppercase;
-  font-size: 28px;
-}
-
 @media (min-width: 768px) {
-  .welcome .welcome-container :nth-child(3) {
-    font-size: 32px;
+  .welcome .welcome-container .text .headline {
+    font-size: 30px;
   }
 }
 
 @media (min-width: 1024px) {
-  .welcome .welcome-container :nth-child(3) {
+  .welcome .welcome-container .text .headline {
     font-size: 36px;
   }
 }
 
-.welcome .welcome-container .number {
+.welcome .welcome-container .text .number {
   margin-top: 40px;
   color: #00994d;
-  font-size: 48px;
+  font-size: 36px;
+}
+
+.welcome .welcome-container .text .number a {
+  color: #00994d;
+  text-decoration: none;
+}
+
+@media (min-width: 520px) {
+  .welcome .welcome-container .text .number {
+    font-size: 42px;
+  }
 }
 
 @media (min-width: 768px) {
-  .welcome .welcome-container .number {
+  .welcome .welcome-container .text .number {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 991px) {
+  .welcome .welcome-container .text .number {
     font-size: 52px;
   }
 }
 
 @media (min-width: 1024px) {
-  .welcome .welcome-container .number {
+  .welcome .welcome-container .text .number {
     font-size: 60px;
   }
 }
@@ -801,6 +816,11 @@ nav .nav-container .menu.active {
 .contact .container .content .adress p {
   font-size: 14px;
   line-height: 1.8;
+}
+
+.contact .container .content .adress p a {
+  color: #000;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
