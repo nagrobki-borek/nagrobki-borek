@@ -12,7 +12,7 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Thasadith&amp;subset=latin-ext"
         rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <link rel="shortcut icon" href="images/logo.png" type="image/png">
 
     <script type="application/ld+json">
@@ -80,38 +80,38 @@
             <div class="menu">
                 <ul class="list">
                     <li class="list-item">
-                        <a href="#" class="list-link home" title="HOME">home <span class="line"></span></a>
+                        <a href="#welcome" class="list-link home" title="HOME">home <span class="line"></span></a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link btn-2" title="O NAS">o nas<span class="line"></span></a>
+                        <a href="#about" class="list-link btn-2" title="O NAS">o nas<span class="line"></span></a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link btn-3" title="OFERTA">oferta <span class="line"></span></a>
+                        <a href="#offer" class="list-link btn-3" title="OFERTA">oferta <span class="line"></span></a>
                     </li>
                     <li class="list-item">
-                        <a href="#" class="list-link btn-4" title="KONTAKT">kontakt <span class="line"></span></a>
+                        <a href="#contact" class="list-link btn-4" title="KONTAKT">kontakt <span class="line"></span></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="welcome">
+    <div class="welcome" id="welcome">
         <div class="welcome-container">
             <div class="text">
                 <h2 class="main-text">Zakład Kamieniarski</h2>
                 <h2 class="main-text">Włodzimierz Maciuka</h2>
                 <h1 class="headline">Nagrobki Borek | Hajnówka | Bielsk Podlaski</h1>
                 <div class="number">
-                    <p>tel. <a href="tel:+48696678911">696-678-911</a></p>
+                    <p>tel. <a href="tel:+48696678911">696 678 911</a></p>
                 </div>
             </div>
 
-            <a class="arrow" title="Przewiń do początku strony"></a>
+            <a class="arrow" href="#welcome" title="Przewiń do początku strony"></a>
         </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="container">
             <h2 class="title">Zakład kamieniarski z tradycjami</h2>
             <div class="description">
@@ -170,7 +170,7 @@
         </div>
     </div>
 
-    <div class="offer">
+    <div class="offer" id="offer">
         <div class="container">
             <h2 class="title">Oferta Zakładu Kamieniarskiego</h2>
             <p class="text">
@@ -222,19 +222,19 @@
     </div>
     <div class="counter container">
         <div class="number">
-            <div class="counter-value" data-count="56">0</div>
+            <div class="counter-value">57</div>
             <p>lat doświadczenia</p>
         </div>
         <div class="number">
-            <div class="counter-value" data-count="28">0</div>
+            <div class="counter-value">28</div>
             <p>rodzajów ofert</p>
         </div>
         <div class="number">
-            <div class="counter-value" data-count="1963">0</div>
+            <div class="counter-value">1963</div>
             <p>rok założenia</p>
         </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <h2 class="title">kontakt</h2>
             <div class="content">
@@ -248,7 +248,7 @@
                         <h3>Adres zakładu:</h3>
                         <p>
                             <a href="https://goo.gl/maps/nYQSRhhjBcVDYHNX9">Borek 19 <br />17-200 Hajnówka <br /></a>
-                            tel.<a href="tel:+48696678911">696-678-911</a>
+                            tel. <a href="tel:+48696678911">696 678 911</a>
                         </p>
                     </div>
                     <div>
@@ -256,7 +256,7 @@
                         <p>
                             <a href=" https://g.page/nagrobki-hajnowka?share">ul. Stanisława Duboisa 6 <br />17-200
                                 Hajnówka <br /></a>
-                            tel. <a href="tel:+48856833148">85-683-31-48</a></p>
+                            tel. <a href="tel:+48856833148">85 683 31 48</a></p>
                     </div>
                 </div>
             </div>
@@ -269,8 +269,7 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 
 </html>
