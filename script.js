@@ -78,8 +78,8 @@ $(window).scroll(function () {
             $({
                 countNum: $this.text()
             }).animate({
-                    countNum: countTo
-                },
+                countNum: countTo
+            },
 
                 {
                     duration: 2000,
@@ -95,21 +95,4 @@ $(window).scroll(function () {
         });
         a = 1;
     }
-
 });
-
-//add map
-function initMap() {
-    const place = {
-        lat: 52.719531,
-        lng: 23.504038
-    };
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 12,
-        center: place
-    });
-    var marker = new google.maps.Marker({
-        position: place,
-        map: map
-    });
-}
