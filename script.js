@@ -8,17 +8,6 @@ hamburger.addEventListener('click', function () {
     menu.classList.toggle('active');
 });
 
-//hide nav
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function () {
-    var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-        navbar.style.top = '0';
-    } else {
-        navbar.style.top = '-70px';
-    }
-    prevScrollpos = currentScrollPos;
-};
 //nav
 $('.home').on('click', function () {
     $('body, html').animate({
