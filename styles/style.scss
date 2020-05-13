@@ -192,6 +192,13 @@ nav {
         text-align: center;
 
         .text {
+            .padding {
+                padding-top: 30px;
+                @media(min-width: 768px) {
+                    padding-top: 50px;
+                }
+            }
+
             .main-text {
                 font-size: 20px;
 
@@ -249,6 +256,16 @@ nav {
 
                 @media (min-width: 1024px) {
                     font-size: 60px;
+                }
+            }
+
+            .prize {
+                @media(max-width: 768px) {
+                    width: 160px;
+                }
+
+                @media(max-width: 480px) {
+                    width: 140px;
                 }
             }
         }
@@ -425,6 +442,9 @@ nav {
                 @media (min-width: 1024px) {
                     padding: 10px;
                 }
+            }
+            .prize {
+                object-fit: contain;
             }
         }
     }

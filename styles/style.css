@@ -225,6 +225,16 @@ nav .nav-container .menu.active {
   text-align: center;
 }
 
+.welcome .welcome-container .text .padding {
+  padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .welcome .welcome-container .text .padding {
+    padding-top: 50px;
+  }
+}
+
 .welcome .welcome-container .text .main-text {
   font-size: 20px;
 }
@@ -302,6 +312,18 @@ nav .nav-container .menu.active {
 @media (min-width: 1024px) {
   .welcome .welcome-container .text .number {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome .welcome-container .text .prize {
+    width: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome .welcome-container .text .prize {
+    width: 140px;
   }
 }
 
@@ -504,6 +526,11 @@ nav .nav-container .menu.active {
   .about .description .photos .photo {
     padding: 10px;
   }
+}
+
+.about .description .photos .prize {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .advantages {
